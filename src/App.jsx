@@ -10,7 +10,6 @@ const defaultHistory = createBrowserHistory();
 const App = ({ history = defaultHistory }) => {
   return (
     <React.Fragment>
-      <p>sadasd asdasdsa</p>
       <BannerOfList />
       <ListOfCharacters />
     </React.Fragment>
